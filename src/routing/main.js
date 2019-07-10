@@ -17,18 +17,18 @@ const MainTab = createMaterialTopTabNavigator({
   MainTab: {
     screen: mainScreen,
     navigationOptions: (props) => ({
-      title: "PESERTA"
+      title: "OVERTIME"
     })
   },Second: {
     screen: mainScreen,
     navigationOptions: (props) => ({
-      title: "PESERTA 2"
+      title: "MEDICAL"
     })
   },
   ProfileTab: {
     screen: profileScreen,
     navigationOptions: (props) => ({
-      title: "ABOUT"
+      title: "Q_LEAVE"
     })
   },
 }, 
